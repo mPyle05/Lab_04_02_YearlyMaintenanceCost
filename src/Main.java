@@ -1,15 +1,16 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        double springCost = 200.0;
+        double summerCost = 300.0;
+        double fallCost = 250.0;
+        double winterCost = 350.0;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        double yearlyMaintenanceCost = springCost + summerCost + fallCost + winterCost;
+
+        System.out.println("Spring Maintenance Cost: $" + springCost);
+        System.out.println("Summer Maintenance Cost: $" + summerCost);
+        System.out.println("Fall Maintenance Cost: $" + fallCost);
+        System.out.println("Winter Maintenance Cost: $" + winterCost);
+        System.out.println("Total Yearly Maintenance Cost: $" + yearlyMaintenanceCost);
     }
 }
